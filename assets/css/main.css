@@ -2273,3 +2273,16 @@ section {
 .greenish-text {
   color: var(--color-primary);
 }
+
+@media screen and (max-width: 768px) {
+  .modal-image {
+    display: none; 
+  }
+  .modal-content .form-row {
+    flex-wrap: wrap;
+  }
+
+  .modal-content .form-row .col-md-6, .modal-content .form-row .col-md-12 {
+    width: 100%!important;
+  }
+}
