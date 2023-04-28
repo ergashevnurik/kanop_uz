@@ -17,7 +17,7 @@ document.querySelector('.submit-btn').onclick = function() {
         let message = "Имя: " + firstName + " " + "Фамилия: " + lastName + " " + "Номер: " + phoneNumber + " " + "Доп Номер: " + addPhoneNumber + " " + "Детали: " + details;
 
         const token = "5952448521:AAEKbvVJuPsvj_WJ1-L4YZ6eMCoX3d9-I3g";
-        const chatId = "972931399";
+        const chatId = "-1001761345064";
         let url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=' + chatId + '&text=' + message;
         xHttp.open("GET", url, true);
         xHttp.send();
